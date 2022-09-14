@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link type="text/css" href="../static/css/style.css" rel="stylesheet" >
+    <title>X.S.S.</title>
+</head>
+<body>
+    <div id='top-div'>
+        <h1>Hello! My name is eXtremely Secure Site.</h1>
+        <p>Do <i>you</i> have a name? Go on, introduce yourself!</p>
+        <!-- Form sets 'name' parameter in url -->
+        <form method='GET'>
+            <input name='name' placeholder='My name is...'>
+            <input id='submit-button' type='submit'>
+        </form>
+    </div>
+    <div id='bottom-div'>
+        <!-- "safe" ensures no sanitation of the input -->
+        <p id='message'>{{message | safe}}</p>
+    </div>
+</body>
+</html>  

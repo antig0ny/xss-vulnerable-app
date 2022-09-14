@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link type="text/css" href="../static/css/style.css" rel="stylesheet">
+    <title>The Cookie Thief</title>
+</head>
+<body>
+    <div>
+        <h1>The Cookie Thief</h1>
+        <p>Any cookies recorded from eXtremely Secure Site will appear below.</p>
+        {% for cookie in recorded_cookies %}
+        <p class='cookie'>{{ cookie }}</p>
+        {% endfor %}
+    </div>
+</body>
+</html>  

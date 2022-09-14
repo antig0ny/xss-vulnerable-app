@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A2342;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 25px 30px 25px;
+    border: 3px solid #97DCB5;
+    border-radius: 16px;
+    background-color: #42C6AB;
+    margin-top: 10%;
+}
+
+h1 {
+    margin: 0px;
+    padding-top: 45px;
+}
+
+h1, p {
+    color: #0A2342;
+}
+
+p {
+    font-size: 24px;
+}
+
+.cookie {
+    margin-top: 4px;
+}
